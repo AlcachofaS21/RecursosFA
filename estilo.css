@@ -1,0 +1,93 @@
+:root{
+  --backd-1: #ededed;
+  --backd-2: #efefef;
+  --backd-3: #ebebeb;
+  --bordd-1: #d7d5d5;
+  --bordd-2: #ccc;
+  --bordd-3: #bbb;
+  --txtd-0: #aaa;
+  --txtd-1: #444;
+  --txtd-2: #555;
+  --txtd-3: #777;
+  --backn-2: #191919;
+  --backn-1: #151515;
+  --backn-3: #101010;
+  --bordn-0: #191919;
+  --bordn-1: #2c2c2c;
+  --bordn-2: #222;
+  --bordn-3: #333;
+  --txtn-1: #ccc;
+  --txtn-2: #aaa;
+  --txtn-3: #888;
+  --g5: #7c3535;
+}
+
+.fab-cr-bx {width: 880px; height: 700px; margin: auto; position: relative; background: #000; overflow: hidden;}
+
+.fab-cr-img {width: 880px; height: 700px; margin: auto; background: url(https://i.imgur.com/KXH9hxg.jpg); background-size: 100%; filter: grayscale(1) brightness(20%); position: relative;}
+
+.fab-cr-back {width: 800px; height: 620px; margin: -680px 0px 0px 20px; position: absolute; background: rgb(0, 0, 0, .8); padding: 20px}
+
+.fab-cr-barra {width: auto; height: 110px; margin: auto; background: #111; padding: 20px; overflow: hidden; position: relative; outline: 1px solid #222; outline-offset: 2px}
+
+.barra-cr-n {width: 610px; height: 130px; margin: -10px 0px 0px -10px; clip-path: polygon(0 0, 90% 0%, 100% 100%, 0% 100%); background: #000;
+background: linear-gradient(to left, #000 20%, #7C3535 100%);}
+
+.fab-cr-barra i {width: auto; height: auto; margin: -40px 0px 0px 600px; position: absolute; font-size: 180px; color: var(--g5); opacity: 30%}
+
+.barra-cr-n nombre {width: auto; height: auto; margin: 20px 0px 0px 150px; font-family: Plak W01 Black Condensed; color: #aaa; font-size: 70px; padding: 0px; text-transform: uppercase; padding: 10px; position: absolute; letter-spacing: 2px}
+
+.barra-cr-n-img {width: 100px; height: 100px; margin: 15px 0px 0px 20px; position: absolute; border-radius: 100%; outline: 1px solid #aaa; outline-offset: 3px; filter: grayscale(1)}
+
+.fab-cr-cont {width: 780px; height: 420px; background: #111; padding: 10px; margin: 10px 0px 0px 0px; position: absolute; overflow: auto}
+
+.fab-cr-inf {width: 772px; height: 70px; background: #000; margin: 0px; margin-top: 2px; overflow: hidden; background: #000;
+background: linear-gradient(to left, #000 0%, #7C3535 150%)}
+
+.fab-cr-inf datos {width: auto; height:auto; font-family: Plak W01 Black Condensed; color: #aaa; text-transform: uppercase; letter-spacing: 1px; font-size: 30px; padding: 0px; margin: 15px 0px 0px 30px; position: absolute}
+
+.fab-cr-cont::-webkit-scrollbar{background: #111; width: 3px!important; border: none}
+
+.fab-cr-cont::-webkit-scrollbar-thumb{background: var(--g5)!important; border: 1px solid transparent}
+
+/* AQUÍ ESTÁ EL CAMBIO PRINCIPAL */
+.fab-big-caja {
+  width: 770px; 
+  height: auto; 
+  background: #111; 
+  padding: 0px; 
+  margin: 10px 0px 20px 0px; 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
+.fab-cr-caja {width: 375px; height: 80px; background: #000; margin: 0px 0px 0px 0px; outline: 1px dotted #333; outline-offset: -1px; padding: 5px; position: relative;}
+
+.fab-cr-caja info {width: 300px; height: auto; padding: 5px; margin: 10px 0px 0px 60px; position: absolute; font-family: Plak W01 Black Condensed; color: var(--g5); text-transform: uppercase; letter-spacing: 0px; font-size: 15px; background: #111; clip-path: polygon(0 0, 95% 0%, 100% 100%, 0% 100%); line-height: 120%}
+
+.fab-cr-caja a {text-decoration: none; color: var(--g5)!important}
+
+.fab-cr-caja res {width: 300px; height: 200px; padding: 10px; margin: 35px 0px 0px 50px; position: absolute; font-family: inconsolata; color: #aaa; text-transform: uppercase; letter-spacing: 0px; font-size: 9px; line-height: 150%}
+
+.fab-cr-caja i {font-size: 10px; color: var(--g5);}
+
+.cajas-icono {width: auto; height: auto; margin: 10px 0px 0px 2px; position: absolute; font-size: 0px; background: #111; padding: 15px; border: 2px solid var(--g5)}
+
+.cajas-icono i {font-size: 20px; text-align: center}
+
+.cerrado-caja {width: 375px; height: 80px; background: #000; margin: 0px 0px 0px 0px; outline: 1px dotted #333; outline-offset: -1px; padding: 5px; position: relative;}
+
+.cerrado-caja info {width: 300px; height: auto; padding: 5px; margin: 10px 0px 0px 60px; position: absolute; font-family: Plak W01 Black Condensed; color: #222; text-transform: uppercase; letter-spacing: 0px; font-size: 15px; background: #111; clip-path: polygon(0 0, 95% 0%, 100% 100%, 0% 100%); line-height: 120%}
+
+.cerrado-caja a {text-decoration: none; color: #777!important}
+
+.cerrado-caja res {width: 300px; height: 200px; padding: 10px; margin: 35px 0px 0px 50px; position: absolute; font-family: inconsolata; color: gray; text-transform: uppercase; letter-spacing: 0px; font-size: 9px; line-height: 150%}
+
+.cerrado-caja i {font-size: 10px; color: #555;}
+
+.cerrado-cajas-icono {width: auto; height: auto; margin: 10px 0px 0px 2px; position: absolute; font-size: 0px; background: #111; padding: 15px; border: 2px solid #333}
+
+.cerrado-cajas-icono i {font-size: 20px; text-align: center}
